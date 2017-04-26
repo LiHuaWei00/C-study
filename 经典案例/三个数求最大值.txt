@@ -1,0 +1,28 @@
+/*
+两个数比较大小
+*/
+#include <stdio.h>
+#include <conio.h>
+int main(void)
+{
+
+    int x,y,z;
+    int max;
+    printf("plese input x,y,z\n");
+    scanf("%d %d %d",&x,&y,&z);
+    if(x>y)
+    {
+        max=x;
+    }
+    else
+    {
+        max=y;
+    }
+    if(z>max)
+    {
+        max=z;
+    }
+    printf("最大值为%d",max);
+
+    return 0;
+}
